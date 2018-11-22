@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db7cfcdb-c5e0-4ac5-817e-9ff32fde06f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/AufgabeEins.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -27,8 +26,11 @@
       <file leaf-file-name="Zahlenraten.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="408">
+              <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,12 +200,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542873653788</updated>
-      <workItem from="1542873658400" duration="3633000" />
+      <workItem from="1542873658400" duration="9450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3633000" />
+    <option name="totallyTimeSpent" value="9450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -211,7 +213,7 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Messages" weight="0.32995495" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -219,7 +221,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32995495" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32995495" />
       <window_info anchor="bottom" id="Terminal" weight="0.32995495" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -256,14 +258,17 @@
     <entry file="file://$PROJECT_DIR$/src/AufgabeEins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="408">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
