@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db7cfcdb-c5e0-4ac5-817e-9ff32fde06f0" name="Default" comment="" />
+    <list default="true" id="db7cfcdb-c5e0-4ac5-817e-9ff32fde06f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AufgabeEins.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AufgabeEins.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AufgabeEins.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Zahlenraten.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -30,10 +42,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/AufgabeEins.java" />
+        <option value="$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java" />
       </list>
     </option>
   </component>
@@ -46,12 +62,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="498" />
     <option name="y" value="89" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -65,6 +82,17 @@
             <path>
               <item name="1810653053_Serie2" type="b2602c69:ProjectViewProjectNode" />
               <item name="1810653053_Serie2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1810653053_Serie2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1810653053_Serie2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1810653053_Serie2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1810653053_Serie2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AufgabeZwei" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -91,11 +119,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Zahlenraten">
     <configuration name="AufgabeEins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AufgabeEins" />
       <module name="1810653053_Serie2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Zahlenraten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AufgabeZwei.Zahlenraten" />
+      <module name="1810653053_Serie2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AufgabeZwei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -138,8 +177,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.AufgabeEins" />
+      <item itemvalue="Application.Zahlenraten" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zahlenraten" />
         <item itemvalue="Application.AufgabeEins" />
       </list>
     </recent_temporary>
@@ -154,28 +198,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542873653788</updated>
-      <workItem from="1542873658400" duration="2331000" />
+      <workItem from="1542873658400" duration="3633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2331000" />
+    <option name="totallyTimeSpent" value="3633000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32995495" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32995495" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32995495" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32995495" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32995495" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -212,6 +257,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
