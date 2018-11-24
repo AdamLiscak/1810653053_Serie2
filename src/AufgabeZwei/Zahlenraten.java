@@ -21,44 +21,61 @@ public class Zahlenraten
            System.out.println("diese Zahl ist ungerade");
        } */
 
-        while(true)
+        int i;
+        for(i=0; i<3; i++)
        {
-               String benutzerstring = JOptionPane.showInputDialog("bitte geben sie eine Zahl zwischen " +min+" und "+max+" ein");
-
-           int benutzerzahl = Integer.parseInt(benutzerstring);
-
-           if (benutzerzahl>max||benutzerzahl<min)
+           while(true)
            {
-               continue;
-           }
+               String benutzerstring = JOptionPane.showInputDialog("bitte geben sie eine Zahl zwischen " + min + " und " + max + " ein");
 
-           else
-           {
-               System.out.println(benutzerzahl);
-               if (zufallszahl==benutzerzahl)
-               {
-                   System.out.println("die zahlen stimmen überein");
-               }
-               else
-               {
-                   System.out.println("die zahlen stimmen nicht überein");
-               }
-               if (benutzerzahl-zufallszahl>2||benutzerzahl-zufallszahl<-2)
-               {
-                   System.out.println("der Betrag der Zahlendifferenz überschreitet 2 ");
-               }
-               else
-               {
-                   System.out.println("Der Betrag der Differenz der Zahlen ist kleiner oder gleich 2");
-               }
-               break;
-           }
+               int benutzerzahl = Integer.parseInt(benutzerstring);
 
+               if (benutzerzahl > max || benutzerzahl < min)
+               {
+                   System.out.println("BITTE EINE ZAHL ZWISCHEN 1 und 10 !!!!!!!!!");
+               }
+               else {
+
+                   System.out.println(benutzerzahl);
+
+                   if (zufallszahl == benutzerzahl)
+
+                   {
+                       System.out.println("Touché, die zahlen stimmen überein\n\n________GG________"); System.exit(0);
+                   }
+
+                   else
+                       {
+                       System.out.println("LOOOOL Die zahlen stimmen nicht überein ");
+                   }
+
+                   if (benutzerzahl - zufallszahl > 2 || benutzerzahl - zufallszahl < -2)
+
+                   {
+                       System.out.println("der Betrag der Zahlendifferenz überschreitet 2 ");
+                   }
+
+                   else
+                       {
+                       System.out.println("Der Betrag der Differenz der Zahlen ist kleiner oder gleich 2");
+                   }
+
+                   if ((i==2)&&benutzerzahl!=zufallszahl)
+                   {
+                       System.out.println( "\n\n____________GAME OVER____________");
+                   }
+                   break;
+               }
+
+
+           }
        }
 
 
 
     }
+
+
 
 
 }
