@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db7cfcdb-c5e0-4ac5-817e-9ff32fde06f0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aufgabe5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1810653053_Serie2/AufgabeZwei/Zahlenraten.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1810653053_Serie2/AufgabeZwei/Zahlenraten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1810653053_Serie2/AufgabeZwei/Zahlenraten.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +18,28 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1106" />
+          <entry key="java" value="1238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1106" />
+          <entry key="JAVA" value="1238" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -44,13 +55,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+            <state>
+              <caret lean-forward="true" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="51" column="125" selection-start-line="51" selection-start-column="125" selection-end-line="51" selection-end-column="125" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#47#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/AufgabeEins.java" />
         <option value="$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java" />
+        <option value="$PROJECT_DIR$/src/AufgabeZwei/Aufgabe5.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe5.java" />
       </list>
     </option>
   </component>
@@ -94,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,13 +144,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543091209758" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543163217049" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -140,7 +166,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Zahlenraten">
+  <component name="RunManager" selected="Application.Aufgabe5">
+    <configuration name="Aufgabe5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aufgabe5" />
+      <module name="1810653053_Serie2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AufgabeEins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AufgabeEins" />
       <module name="1810653053_Serie2" />
@@ -155,7 +189,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AufgabeZwei.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,9 +220,11 @@
     <list>
       <item itemvalue="Application.AufgabeEins" />
       <item itemvalue="Application.Zahlenraten" />
+      <item itemvalue="Application.Aufgabe5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aufgabe5" />
         <item itemvalue="Application.Zahlenraten" />
         <item itemvalue="Application.AufgabeEins" />
       </list>
@@ -205,18 +241,19 @@
       <option name="presentableId" value="Default" />
       <updated>1542873653788</updated>
       <workItem from="1542873658400" duration="9450000" />
-      <workItem from="1543079621865" duration="11440000" />
+      <workItem from="1543079621865" duration="11823000" />
+      <workItem from="1543162392421" duration="810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20890000" />
+    <option name="totallyTimeSpent" value="22083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +269,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32995495" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -263,10 +300,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AufgabeZwei/Zahlenraten.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+        <state>
+          <caret lean-forward="true" selection-end-line="76" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="51" column="125" selection-start-line="51" selection-start-column="125" selection-end-line="51" selection-end-column="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#47#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
