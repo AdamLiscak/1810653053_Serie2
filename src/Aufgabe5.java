@@ -18,7 +18,7 @@ import java.util.Random;
        } */
 
             int i=-1;
-            while (i < 2) {
+             do   {
                 while (true) {
                     String benutzerstring = JOptionPane.showInputDialog("bitte geben sie eine Zahl zwischen " + min + " und " + max + " ein");
 
@@ -50,14 +50,25 @@ import java.util.Random;
                         if ((i == 2) && benutzerzahl != zufallszahl) {
                             System.out.println("\n\n____________GAME OVER____________"+"\nDie Gesuchte Zahl war "+ zufallszahl);
                         }
+                            if (i == 0)
+                            {
+                                System.out.println("sie haben noch zwei versuche");
+                            }
+                            if (i==1)
+                            {
+                                System.out.println("noch ein Versuch");
+                            }
                         break;
                     }
 
 
                 }
-            }
+            } while (i < 2);
 
 
         }
     }
 
+// while: Zuerst wird die bedingung der Schleife auf richtigkeit überprüft
+// do while: Die bedingung wird erst danach überprüft
+// for schleife: Die for schleife ist nicht so flexibel wie eine while schleife und richtet sich nach dem Abzählen einer Zahl
